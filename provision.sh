@@ -14,6 +14,6 @@ echo "anan"
 set -euo pipefail
 sudo apt-get update
 sudo apt-get -y install python3-pip
-sudo pip3 install jupyter pandas
+sudo pip3 install jupyter pandas sklearn seaborn matplotlib
 echo Gerekli dependencyler yuklendi..
 

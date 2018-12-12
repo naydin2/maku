@@ -753,4 +753,63 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBG23+5pNW313PaenbRd2XzN464giaHGsmUWrEQUtg
 
 Ubuntu 16.04.5 LTS ubuntu-xenial ttyS0
 
-ubuntu-xenial login: 
+ubuntu-xenial login: [15485.812460] INFO: rcu_sched detected stalls on CPUs/tasks:
+[15485.820279] 	0-...: (0 ticks this GP) idle=19e/0/0 softirq=48666/48666 fqs=0 
+[15485.831955] 	(detected by 1, t=16319 jiffies, g=25132, c=25131, q=310)
+[15485.875278] rcu_sched kthread starved for 16319 jiffies! g25132 c25131 f0x0 s3 ->state=0x1
+[15766.018135] INFO: rcu_sched detected stalls on CPUs/tasks:
+[15766.053739] 	0-...: (0 ticks this GP) idle=3ec/0/0 softirq=48770/48770 fqs=0 
+[15787.514267] 	(detected by 1, t=0 jiffies, g=25182, c=25181, q=548)
+[15830.772986] INFO: rcu_sched self-detected stall on CPU[15830.774134] INFO: rcu_sched detected stalls on CPUs/tasks:[15830.774139] 	1-...: (1 GPs behind) idle=bf7/1/0 softirq=71606/71607 fqs=0 
+[15830.774139] 	[15830.774174] rcu_sched kthread starved for 16196 jiffies! g25182 c25181 f0x2 s3 ->state=0x0
+
+[15895.461578] 	1-...: (1 GPs behind) idle=bf7/1/0 softirq=71606/71607 fqs=0 
+[15895.466103] 	 (t=16196 jiffies g=25182 c=25181 q=584)
+[15895.476714] rcu_sched kthread starved for 16196 jiffies! g25182 c25181 f0x2 s3 ->state=0x0
+[16758.824664] INFO: rcu_sched detected stalls on CPUs/tasks:
+[16758.930990] 	0-...: (1 GPs behind) idle=e67/1/0 softirq=49166/49167 fqs=0 
+[16780.436176] 	(detected by 0, t=0 jiffies, g=25396, c=25395, q=216)
+[16845.319247] INFO: rcu_sched self-detected stall on CPU[16845.322449] INFO: rcu_sched detected stalls on CPUs/tasks:[16845.322454] 	0-...: (1 GPs behind) idle=e67/1/0 softirq=49166/49167 fqs=1 
+[16845.322455] 	[16845.322513] rcu_sched kthread starved for 21635 jiffies! g25396 c25395 f0x0 s3 ->state=0x1
+
+[16866.834704] 	0-...: (1 GPs behind) idle=e67/1/0 softirq=49166/49167 fqs=2 
+[16866.852242] 	 (t=21635 jiffies g=25396 c=25395 q=406)
+[17060.731382] NMI watchdog: BUG: soft lockup - CPU#0 stuck for 21s! [apport:9841]
+[17816.658535] INFO: rcu_sched detected stalls on CPUs/tasks:
+[17816.665831] 	1-...: (1 GPs behind) idle=1f3/1/0 softirq=72520/72521 fqs=0 
+[17838.427707] 	(detected by 1, t=0 jiffies, g=25641, c=25640, q=456)
+[17882.492208] INFO: rcu_sched detected stalls on CPUs/tasks:
+[17903.962250] 	(detected by 0, t=21837 jiffies, g=25641, c=25640, q=366)
+[17903.963440] All QSes seen, last rcu_sched kthread activity 21837 (4299366533-4299344696), jiffies_till_next_fqs=1, root ->qsmask 0x0
+[17968.650015] rcu_sched kthread starved for 38017 jiffies! g25641 c25640 f0x2 s3 ->state=0x0
+[18077.102865] INFO: rcu_sched detected stalls on CPUs/tasks:
+[18077.110443] 	0-...: (0 ticks this GP) idle=a6e/0/0 softirq=49703/49703 fqs=0 
+[18077.116625] 	(detected by 1, t=16314 jiffies, g=25655, c=25654, q=202)
+[18077.208521] rcu_sched kthread starved for 16314 jiffies! g25655 c25654 f0x0 s3 ->state=0x1
+[18185.129330] INFO: rcu_sched self-detected stall on CPU[18185.129531] INFO: rcu_sched detected stalls on CPUs/tasks:[18185.129536] 	1-...: (1 GPs behind) idle=86d/1/0 softirq=72579/72580 fqs=0 
+[18185.129537] 	[18185.129577] rcu_sched kthread starved for 27020 jiffies! g25656 c25655 f0x2 s3 ->state=0x0
+
+[18228.894927] 	1-...: (1 GPs behind) idle=86d/1/0 softirq=72579/72580 fqs=1 
+[18250.418173] 	 (t=27020 jiffies g=25656 c=25655 q=271)
+[18316.113183] NMI watchdog: BUG: soft lockup - CPU#1 stuck for 21s! [apport:9937]
+[18467.598094] INFO: rcu_sched detected stalls on CPUs/tasks:
+[18467.602373] 	0-...: (0 ticks this GP) idle=e2c/0/0 softirq=49851/49851 fqs=0 
+[18467.609908] 	(detected by 1, t=16253 jiffies, g=25708, c=25707, q=399)
+[18467.618007] rcu_sched kthread starved for 16253 jiffies! g25708 c25707 f0x0 s3 ->state=0x1
+[18619.091504] INFO: rcu_sched detected stalls on CPUs/tasks:
+[18619.098518] 	0-...: (0 ticks this GP) idle=0b6/0/0 softirq=49890/49890 fqs=0 
+[18619.103311] 	(detected by 1, t=16245 jiffies, g=25715, c=25714, q=207)
+[18769.866830] INFO: rcu_sched detected stalls on CPUs/tasks:
+[18769.950498] 	1-...: (1 GPs behind) idle=14d/1/0 softirq=72795/72796 fqs=0 
+[18791.675735] 	(detected by 1, t=0 jiffies, g=25731, c=25730, q=222)
+[19072.586027] NMI watchdog: BUG: soft lockup - CPU#1 stuck for 40s! [vminfo:1162]
+[19094.379768] INFO: rcu_sched self-detected stall on CPU[19094.404621] INFO: rcu_sched detected stalls on CPUs/tasks:[19094.404626] 	1-...: (1 GPs behind) idle=51d/140000000000001/0 softirq=72895/72895 fqs=1 
+[19094.404627] 	[19094.404767] rcu_sched kthread starved for 5451 jiffies! g25780 c25779 f0x0 s3 ->state=0x1
+
+[19203.332863] 	1-...: (1 GPs behind) idle=51d/140000000000001/0 softirq=72895/72895 fqs=2 
+[19268.078807] 	 (t=16190 jiffies g=25780 c=25779 q=175)
+[19311.298122] INFO: rcu_sched self-detected stall on CPU[19311.301602] INFO: rcu_sched detected stalls on CPUs/tasks:[19311.301607] 	1-...: (1 GPs behind) idle=51d/140000000000001/0 softirq=72895/72895 fqs=2 
+[19311.301607] 	[19311.301809] rcu_sched kthread starved for 54257 jiffies! g25780 c25779 f0x0 s3 ->state=0x1
+
+[19311.344032] 	1-...: (1 GPs behind) idle=51d/140000000000001/0 softirq=72895/72895 fqs=3 
+[19311.352843] 	 (t=70447 jiffies g=25780 c=25779 q=187)
